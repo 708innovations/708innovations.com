@@ -69,7 +69,7 @@ figcaption {
   filter: drop-shadow(5px 5px 2px);
 }
 
-.more-rounded-corners {
+.extra-round {
   border-radius: 20px;
 }
 
