@@ -69,6 +69,10 @@ figcaption {
   filter: drop-shadow(5px 5px 2px);
 }
 
+.more-rounded-corners {
+  border-radius: 20px;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -1349,7 +1353,7 @@ Page Heading Style
   background-size: cover;
   padding-top: 250px;
   text-align: center;
-  background-color: #2a2a2a;
+  background-color: #1f3152;
 }
 
 .page-heading h6 {
@@ -1367,7 +1371,7 @@ Page Heading Style
 }
 
 .page-heading span {
-  color: #8a75da;
+  color: #ffffff;
   font-size: 15px;
 }
 
