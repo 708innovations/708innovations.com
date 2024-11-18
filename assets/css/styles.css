@@ -192,12 +192,12 @@ body {
 }
 
 ::selection {
-  background: #7453fc;
+  background: #00BCD4;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #7453fc;
+  background: #00BCD4;
   color: #fff;
 }
 
@@ -205,7 +205,7 @@ body {
   font-size: 14px;
   color: #fff;
   background-color: transparent;
-  border: 1px solid #7453fc;
+  border: 1px solid #00BCD4;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -229,15 +229,15 @@ body {
 }
 
 .border-button a:hover {
-  background-color: #7453fc;
+  background-color: #00BCD4;
   color: #fff;
 }
 
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #7453fc;
-  border: 1px solid #7453fc;
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -262,7 +262,7 @@ body {
 
 .main-button a:hover {
   background-color: #fff;
-  color: #7453fc;
+  color: #00BCD4;
   border: 1px solid #fff;
 }
 
@@ -281,7 +281,7 @@ section {
 .section-heading .line-dec {
   width: 100px;
   height: 2px;
-  background-color: #7453fc;
+  background-color: #00BCD4;
   margin: 0 auto 30px auto;
 }
 
@@ -294,7 +294,7 @@ section {
 }
 
 .section-heading h2 em {
-  color: #7453fc;
+  color: #00BCD4;
   font-style: normal;
 }
 
@@ -371,7 +371,7 @@ Pre-loader Style
   height: 16px;
   top: 12px;
   left: 15px;
-  background: #7453fc;
+  background: #00BCD4;
   border-radius: 50%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -394,7 +394,7 @@ Pre-loader Style
   width: 16px;
   height: 16px;
   margin-left: 16px;
-  background: #7453fc;
+  background: #00BCD4;
   border-radius: 50%;
 }
 
@@ -516,7 +516,7 @@ Header Style
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
   color: #fff;
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .background-header .main-nav .nav li:hover a,
@@ -554,7 +554,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #7453fc;
+  background-color: #00BCD4;
   display: block;
   position: absolute;
   width: 30px;
@@ -565,7 +565,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -574,7 +574,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #7453fc;
+  background-color: #00BCD4;
   display: block;
   position: absolute;
   width: 30px;
@@ -585,7 +585,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -626,11 +626,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -638,11 +638,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .header-area.header-sticky {
@@ -701,7 +701,7 @@ Header Style
 
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #7453fc !important;
+    color: #00BCD4 !important;
     opacity: 1;
   }
 
@@ -776,7 +776,7 @@ Header Style
 
   .header-area .main-nav .nav li a:hover {
     background: #fff !important;
-    color: #7453fc !important;
+    color: #00BCD4 !important;
   }
 
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
@@ -831,9 +831,14 @@ Banner Style
   background-size: cover; */
   padding-top: 290px;
   padding-bottom: 240px;
-  /* background-color: #2a2a2a; */
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: #34e89e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f3443, #34e89e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 
 .main-banner h6 {
@@ -891,7 +896,7 @@ Banner Style
   line-height: 46px;
   font-size: 24px;
   display: inline-block;
-  color: #7453fc;
+  color: #00BCD4;
   background-color: #fff;
   border-radius: 50%;
   opacity: 1;
@@ -920,7 +925,7 @@ Categories & Collections Style
 }
 
 .categories-collections:after {
-  background-image: url(/assets/images/category-collection-dec.png);
+  /* background-image: url(/assets/images/category-collection-dec.png); */
   width: 300px;
   height: 282px;
   position: absolute;
@@ -963,7 +968,7 @@ Categories & Collections Style
   height: 46px;
   line-height: 46px;
   background-color: #fff;
-  color: #7453fc;
+  color: #00BCD4;
   border-radius: 50%;
   font-size: 18px;
   position: absolute;
@@ -976,7 +981,7 @@ Categories & Collections Style
 }
 
 .categories .item .icon-button a:hover {
-  background-color: #7453fc;
+  background-color: #00BCD4;
   color: #fff;
 }
 
@@ -1041,7 +1046,7 @@ Categories & Collections Style
 .collections .item .main-button a:hover {
   background-color: #fff;
   border: 1px solid #fff;
-  color: #7453fc;
+  color: #00BCD4;
 }
 
 .collections .owl-nav {
@@ -1070,7 +1075,7 @@ Categories & Collections Style
   line-height: 46px;
   font-size: 24px;
   display: inline-block;
-  color: #7453fc;
+  color: #00BCD4;
   background-color: #fff;
   border-radius: 50%;
   opacity: 1;
@@ -1089,7 +1094,7 @@ Create NFT Style
 --------------------------------------------- 
 */
 
-.create-nft {
+.three-step {
   background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1098,32 +1103,32 @@ Create NFT Style
   position: relative;
 }
 
-.create-nft .section-heading .line-dec {
+.three-step .section-heading .line-dec {
   margin-left: 0%;
   background-color: #fff;
 }
 
-.create-nft .section-heading {
+.three-step .section-heading {
   text-align: left;
   margin-bottom: 50px;
 }
 
-.create-nft .main-button {
+.three-step .main-button {
   text-align: right;
 }
 
-.create-nft .item {
+.three-step .item {
   margin-top: 30px;
   position: relative;
 }
 
-.create-nft .first-item .number {
+.three-step .first-item .number {
   position: absolute;
   right: 0;
   top: -20px;
 }
 
-.create-nft .first-item:after {
+.three-step .first-item:after {
   position: absolute;
   width: 1px;
   height: 95%;
@@ -1133,13 +1138,13 @@ Create NFT Style
   top: 5%;
 }
 
-.create-nft .second-item .number {
+.three-step .second-item .number {
   position: absolute;
   right: 0;
   top: -20px;
 }
 
-.create-nft .second-item:after {
+.three-step .second-item:after {
   position: absolute;
   width: 1px;
   height: 95%;
@@ -1159,21 +1164,21 @@ Create NFT Style
   border-radius: 50%;
 }
 
-.create-nft .item .icon img {
+.three-step .item .icon img {
   max-width: 31px;
 }
 
-.create-nft h4 {
+.three-step h4 {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-.create-nft p {
+.three-step p {
   margin-right: 30px;
 }
 
-.create-nft .item a {
+.three-step .item a {
   color: #3CF;
 }
 
@@ -1230,7 +1235,7 @@ Currently Market Style
 
 .currently-market .filters ul li.active,
 .currently-market .filters ul li:hover {
-  background-color: #7453fc;
+  background-color: #00BCD4;
 }
 
 .currently-market .item {
@@ -1268,7 +1273,7 @@ Currently Market Style
 }
 
 .currently-market .item .right-content span.author a {
-  color: #7453fc;
+  color: #00BCD4;
   font-weight: 700;
   margin-top: 5px;
 }
@@ -1313,8 +1318,8 @@ Currently Market Style
 .currently-market .item .text-button a {
   font-size: 15px;
   font-weight: 700;
-  color: #7453fc;
-  border-bottom: 1px solid #7453fc;
+  color: #00BCD4;
+  border-bottom: 1px solid #00BCD4;
 }
 
 
@@ -1358,7 +1363,7 @@ Page Heading Style
 }
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  /* background-image: url(../images/heading-bg.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1467,7 +1472,7 @@ Explore Style
 }
 
 .featured-explore .item .hover-effect .content span.author a {
-  color: #7453fc;
+  color: #00BCD4;
   font-weight: 700;
   margin-top: 5px;
 }
@@ -1499,7 +1504,7 @@ Explore Style
   font-size: 22px;
   font-weight: 700;
   display: inline-block;
-  color: #7453fc;
+  color: #00BCD4;
   background-color: #fff;
   border-radius: 50%;
   opacity: 0.5;
@@ -1561,8 +1566,8 @@ Explore Style
 .discover-items #search-form button {
   font-size: 14px;
   color: #fff;
-  background-color: #7453fc;
-  border: 1px solid #7453fc;
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
   height: 46px;
   line-height: 46px;
   text-align: center;
@@ -1590,13 +1595,13 @@ Explore Style
 
 .discover-items #search-form button:hover {
   background-color: #fff;
-  color: #7453fc;
+  color: #00BCD4;
   border: 1px solid #fff;
 }
 
 .discover-items .item span.banner {
   font-size: 15px;
-  background-color: #7453fc;
+  background-color: #00BCD4;
   color: #fff;
   font-weight: 500;
   padding: 5px 15px;
@@ -1761,7 +1766,7 @@ Details Page Style
 }
 
 .item-details-page span.author a {
-  color: #7453fc;
+  color: #00BCD4;
   font-weight: 700;
   margin-top: 5px;
 }
@@ -1778,7 +1783,7 @@ Details Page Style
 
 .item-details-page span strong {
   font-size: 20px;
-  color: #7453fc;
+  color: #00BCD4;
 }
 
 .item-details-page p {
@@ -1816,7 +1821,7 @@ Details Page Style
 .item-details-page form input {
   width: 100px;
   height: 46px;
-  border: 1px solid #7453fc;
+  border: 1px solid #00BCD4;
   outline: none;
   border-radius: 23px;
   background-color: transparent;
@@ -1832,8 +1837,8 @@ Details Page Style
 .item-details-page button {
   font-size: 14px;
   color: #fff;
-  background-color: #7453fc;
-  border: 1px solid #7453fc;
+  background-color: #00BCD4;
+  border: 1px solid #00BCD4;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -1858,7 +1863,7 @@ Details Page Style
 
 .item-details-page button:hover {
   background-color: #fff;
-  color: #7453fc;
+  color: #00BCD4;
   border: 1px solid #fff;
 }
 
@@ -1879,7 +1884,7 @@ Details Page Style
 }
 
 .current-bid .mini-heading h4 {
-  background-color: #7453fc;
+  background-color: #00BCD4;
   display: inline-block;
   font-size: 20px;
   padding: 10px 20px;
@@ -1914,7 +1919,7 @@ Details Page Style
 
 .current-bid .item .right-content a {
   font-size: 15px;
-  color: #7453fc;
+  color: #00BCD4;
   font-weight: 700;
 }
 
@@ -1933,14 +1938,14 @@ Details Page Style
 
 .current-bid .item .right-content h6 em {
   font-size: 18px;
-  color: #7453fc;
+  color: #00BCD4;
   font-style: normal;
   font-weight: 700;
 }
 
 .current-bid .item .right-content span.date {
   font-size: 15px;
-  color: #7453fc;
+  color: #00BCD4;
 }
 
 
@@ -1971,7 +1976,7 @@ Author Page Style
 
 .author-page .author h4 a {
   font-size: 15px;
-  color: #7453fc;
+  color: #00BCD4;
 }
 
 .author-page .right-info {
@@ -1987,13 +1992,13 @@ Author Page Style
 }
 
 .author-page .right-info i {
-  color: #7453fc;
+  color: #00BCD4;
   font-size: 22px;
 }
 
 .author-page .right-info h6 {
   font-size: 20px;
-  color: #7453fc;
+  color: #00BCD4;
   margin-top: 4px;
 }
 
@@ -2159,7 +2164,7 @@ body {
     margin-bottom: 35px;
   }
 
-  .create-nft .section-heading,
+  .three-step .section-heading,
   .currently-market .section-heading {
     text-align: center;
   }
@@ -2168,12 +2173,12 @@ body {
     width: 100%;
   }
 
-  .create-nft .section-heading .line-dec,
+  .three-step .section-heading .line-dec,
   .currently-market .section-heading .line-dec {
     margin: 0 auto;
   }
 
-  .create-nft .main-button,
+  .three-step .main-button,
   .currently-market .filters {
     text-align: center;
   }
@@ -2183,18 +2188,18 @@ body {
     margin-top: -30px;
   }
 
-  .create-nft p {
+  .three-step p {
     margin-right: 0px;
   }
 
-  .create-nft .first-item:after,
-  .create-nft .second-item:after,
-  .create-nft .first-item .number,
-  .create-nft .second-item .number {
+  .three-step .first-item:after,
+  .three-step .second-item:after,
+  .three-step .first-item .number,
+  .three-step .second-item .number {
     display: none;
   }
 
-  .create-nft .item {
+  .three-step .item {
     text-align: center;
     margin-top: 45px;
   }
