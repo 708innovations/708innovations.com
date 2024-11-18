@@ -1090,17 +1090,24 @@ Categories & Collections Style
 
 /* 
 ---------------------------------------------
-Create NFT Style
+Three Step
 --------------------------------------------- 
 */
 
 .three-step {
-  background-image: url(../images/main-bg.jpg);
+  /* background-image: url(../images/main-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   padding: 120px 0px;
   position: relative;
+  background: #2C3E50;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4CA1AF, #2C3E50);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .three-step .section-heading .line-dec {
