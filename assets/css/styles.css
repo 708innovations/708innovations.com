@@ -73,6 +73,10 @@ figcaption {
   border-radius: 20px;
 }
 
+.bottom-padding {
+  padding-bottom: 1rem;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -187,7 +191,6 @@ body {
   display: inline-block;
   border-radius: 25px;
   font-weight: 500;
-  text-transform: capitalize;
   letter-spacing: 0.5px;
   transition: all .3s;
   position: relative;
